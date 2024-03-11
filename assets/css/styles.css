@@ -303,7 +303,7 @@ img{
 }
 
 .home__blob-img{
-    width: 130%;
+    width: 190px;
 }
 
 .home__data{
@@ -508,7 +508,7 @@ img{
 }
 
 .skills__python{
-    width: 90%;
+    width: 70%;
 }
 
 .skills__java{
@@ -516,7 +516,7 @@ img{
 }
 
 .skills__sql{
-    width: 85%;
+    width: 80%;
 }
 
 .skills__js{
@@ -524,7 +524,7 @@ img{
 }
 
 .skills__pyspark{
-    width: 75%;
+    width: 60%;
 }
 
 .skills__cpp{
@@ -548,7 +548,7 @@ img{
 }
 
 .skills__r{
-    width: 70%;
+    width: 50%;
 }
 
 .skills__excel{
@@ -580,11 +580,11 @@ img{
 }
 
 .skills__nltk{
-    width: 60%;
+    width: 6%;
 }
 
-.skills__dgl{
-    width: 55%;
+.skills__pyspark{
+    width: 60%;
 }
 
 .skills__streamlit{
@@ -612,31 +612,34 @@ img{
 }
 
 .skills__regression{
-    width: 95%;
+    width: 90%;
 }
 
 .skills__dt{
-    width: 95%;
+    width: 90%;
+}
+.skills__EM{
+    width: 70%
 }
 
 .skills__clustering{
-    width: 65%;
-}
-
-.skills__gnn{
     width: 60%;
 }
 
+.skills__gnn{
+    width: 50%;
+}
+
 .skills__recsys{
-    width: 75%;
+    width: 70%;
 }
 
 .skills__cnn{
-    width: 80%;
+    width: 50%;
 }
 
 .skills__nlp{
-    width: 65%;
+    width: 60%;
 }
 
 .skills__eda{
@@ -644,7 +647,7 @@ img{
 }
 
 .skills__time{
-    width: 65%;
+    width: 50%;
 }
 
 .skills__ensemble{
@@ -655,20 +658,20 @@ img{
     width: 70%;
 }
 
-.skills__sagemaker{
-    width: 65%;
-}
-
-.skills__emr{
-    width: 75%;
-}
-
-.skills__docker{
+.skills__DF{
     width: 60%;
 }
 
-.skills__airflow{
+.skills__dataproc{
+    width: 60%;
+}
+
+.skills__docker{
     width: 40%;
+}
+
+.skills__airflow{
+    width: 50%;
 }
 
 .skills__kafka{
@@ -676,12 +679,12 @@ img{
 }
 
 
-.skills__lambda{
-    width: 70%;
+.skills__fusion{
+    width: 60%;
 }
 
 .skills__bq{
-    width: 40%;
+    width: 70%;
 }
 
 .skills__redshift{
@@ -697,7 +700,10 @@ img{
 }
 
 .skills__pbi{
-    width: 50%;
+    width: 75%;
+}
+.skills__looker{
+    width: 70;
 }
 
 .skills__close .skills__list{
