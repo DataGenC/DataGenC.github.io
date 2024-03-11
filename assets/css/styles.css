@@ -298,12 +298,12 @@ img{
 }
 
 .home__blob{
-    width: 200px;
+    width: 240px;
     fill: var(--first-color);
 }
 
 .home__blob-img{
-    width: 170px;
+    width: 130%;
 }
 
 .home__data{
