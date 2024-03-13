@@ -394,16 +394,17 @@ img{
 }
 
 /*==================== ABOUT ====================*/
-.about__img{
-    width: 200px;
-    border-radius: .5rem;
+.about__img {
+    width: 270px;
+    border-radius: 24px;
+    box-shadow: 10px 10px 10px rgba(92, 75, 79, 0.1); /* Example box-shadow */
     justify-self: center;
     align-self: center;
 }
 
 .about__description{
     text-align: center;
-    margin-bottom: var(--mb-2-5);
+    margin-bottom: var(--mb-0-5);
     font-size: small;
 }
 
