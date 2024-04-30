@@ -394,13 +394,22 @@ img{
 }
 
 /*==================== ABOUT ====================*/
+
+
 .about__img {
-    width: 270px;
-    border-radius: 24px;
-    box-shadow: 10px 10px 10px rgba(92, 75, 79, 0.1); /* Example box-shadow */
-    justify-self: center;
-    align-self: center;
+    width: 2400; /* Adjust width to fit well within the layout */
+    height: 1800; /* Maintain aspect ratio */
+    border-radius: 30%; /* Apply circular border */
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.5); /* Subtle box-shadow */
+    display: block; /* Ensure the image is displayed as a block element */
+    margin: auto; /* Center the image horizontally */
+    border: 4px solid #8391e0; /* White border around the image */
+     /* Smooth transition on hover */
 }
+
+
+
+
 
 .about__description{
     text-align: center;
@@ -660,10 +669,10 @@ img{
 }
 
 .skills__DF{
-    width: 60%;
+    width: 40%;
 }
 
-.skills__dataproc{
+.skills__snowflake{
     width: 60%;
 }
 
@@ -672,7 +681,7 @@ img{
 }
 
 .skills__airflow{
-    width: 50%;
+    width: 40%;
 }
 
 .skills__kafka{
@@ -681,7 +690,7 @@ img{
 
 
 .skills__fusion{
-    width: 60%;
+    width: 40%;
 }
 
 .skills__bq{
