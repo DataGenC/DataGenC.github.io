@@ -288,14 +288,16 @@ img{
     row-gap: 1rem;
 }
 
-.home__social-icon{
+.home__social-icon {
     font-size: 1.25rem;
     color: var(--first-color);
+    display: inline-block; /* Ensures the link occupies the space defined by its content */
 }
 
-.home__social-icon:hover{
+.home__social-icon:hover {
     color: var(--first-color-alt);
 }
+
 
 .home__blob{
     width: 240px;
@@ -304,6 +306,15 @@ img{
 
 .home__blob-img{
     width: 190px;
+}
+.home__coursera-icon {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 100%; /* Makes the image round */
+    background-color: transparent;
 }
 
 .home__data{
@@ -405,6 +416,16 @@ img{
     margin: auto; /* Center the image horizontally */
     border: 4px solid #8391e0; /* White border around the image */
      /* Smooth transition on hover */
+}
+@media screen and (max-width: 767px) {
+    .about__img {
+        max-width: 80%; /* Limit image width to 80% of the screen width */
+    }
+}
+@media screen and (max-width: 1366px) {
+    .about__img {
+        max-width: 80%; /* Limit image width to 80% of the screen width */
+    }
 }
 
 
